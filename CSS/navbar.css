@@ -1,0 +1,30 @@
+.navbar
+{
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+
+    position: fixed;
+    width: 100%;
+    padding: 12px 24px;
+}
+
+.nav-item
+{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    padding: 12px 24px;
+}
+
+.nav-item:hover
+{
+    background-color: #ccc;
+    color:#000;
+}
