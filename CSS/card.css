@@ -1,7 +1,7 @@
 .places-grid
 {
     max-width: 800px;
-    margin: auto;
+    margin-inline: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -11,6 +11,7 @@
     background-color: #fff;
     color: #000;
     width: 200px;
+    margin-bottom: 32px;
 }
 
 .place-card img
